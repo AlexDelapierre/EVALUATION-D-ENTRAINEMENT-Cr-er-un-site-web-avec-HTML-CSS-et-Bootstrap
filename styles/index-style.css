@@ -1,0 +1,52 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;     
+}
+
+nav {
+  position: absolute; 
+  top: 20em;
+}
+
+.nav-link, .dropdown-item, h1, h2 {
+  color: white;
+}
+
+
+svg {
+  fill: white;
+}
+
+.header-background { 
+  position: absolute; 
+  height: 12em;
+  width: 100%;
+  top: 0em;
+  background-image: url('../images/background-picture.jpg'); 
+  background-size: cover;
+  background-position: bottom;  
+}
+
+/* todo : responsive problem to center element */
+.h1-background {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); 
+    top: 10em;   
+    left:30%;        
+}
+
+h1 {
+  font-size: 1em;
+  margin: 0px 3px auto;
+}
