@@ -11,42 +11,50 @@ html {
 }
 
 body {
-  height: 100vh;     
+  /* height: 100vh; */
+  height: 1500px;
 }
 
-nav {
-  position: absolute; 
-  top: 20em;
-}
+/*For navbar sticky-top
+header {
+  height: 1500px;  
+}*/
 
 .nav-link, .dropdown-item, h1, h2 {
   color: white;
 }
 
-
 svg {
   fill: white;
 }
 
-.header-background { 
-  position: absolute; 
-  height: 12em;
+.header-background {
+  position: absolute;
+  height: 270px;
   width: 100%;
-  top: 0em;
-  background-image: url('../images/background-picture.jpg'); 
+  top: 0;
+  background-image: url('../images/background-picture.jpg');
   background-size: cover;
-  background-position: bottom;  
+  background-position: bottom;
+  border: 2px solid ;
 }
 
-/* todo : responsive problem to center element */
 .h1-background {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5); 
-    top: 10em;   
-    left:30%;        
+    position:absolute;
+    width: 160px;
+    height: 8%;
+    top: 88%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    padding: 0px 6px 0px;
 }
 
+/* todo : change typo */
 h1 {
-  font-size: 1em;
-  margin: 0px 3px auto;
+  font-size: 1rem;
 }
+
