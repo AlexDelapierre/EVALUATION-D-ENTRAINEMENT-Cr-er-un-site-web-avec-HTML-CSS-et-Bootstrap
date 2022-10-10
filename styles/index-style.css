@@ -8,6 +8,8 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
+  position: relative; 
+  min-height: 100%;
 }
 
 body {
@@ -20,13 +22,13 @@ header {
   height: 1500px;  
 }*/
 
-.nav-link, .dropdown-item, h1, h2 {
+.nav-link, .dropdown-item, h1, h2, h5, footer p {
   color: white;
 }
 
-svg {
+/*svg {
   fill: white;
-}
+}*/
 
 .header-background {
   position: absolute;
@@ -56,5 +58,15 @@ svg {
 /* todo : change typo */
 h1 {
   font-size: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright {
+  color: white;
 }
 
