@@ -1,3 +1,4 @@
+
 *,
 ::before,
 ::after {
@@ -8,33 +9,15 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
-  position: relative; 
-  min-height: 100%;
+  /* position: relative;  */
+  /* min-height: 100%; */
 }
-
-body {
-  /* height: 100vh; */
-  height: 2000px;
-}
-
-/*For navbar sticky-top
-header {
-  height: 1500px;  
-}*/
-
-.nav-link, .dropdown-item, h1, h2, h5, footer p, .copyright {
-  color: white;
-}
-
-/*svg {
-  fill: white;
-}*/
 
 .header-background {
-  position: absolute;
+  position: relative;
   height: 275px;
   width: 100%;
-  top: 0;
+  /* top: 0; */
   background-image: url('../images/background-picture.jpg');
   background-size: cover;
   background-position: bottom;
@@ -48,11 +31,37 @@ header {
     top: 88%;
     left: 0;
     right: 0;
-    bottom: 0;
+    /* bottom: 0; */
     margin: auto;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 30px;
-    padding: 0px 6px 0px;
+}
+
+.carousel-background {
+  /* position: relative; */
+  /* max-height: 50%;  */
+  /* width: 85%; */
+  /* top: 400px; */
+  /* left: 0; */
+  /* right: 0; */
+  /* margin: auto; */
+  padding: 5%;
+  /* background-color:#f4a353; */
+}
+
+#carouselExampleCaptions {
+  /* position: relative; */
+  border: 1px solid;
+ }
+
+footer {
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* width: 100%; */
+}
+
+.nav-link, .dropdown-item, h1, h2, h5, footer p, .copyright {
+  color: white;
 }
 
 /* todo : change typo */
@@ -60,28 +69,6 @@ h1 {
   font-size: 1rem;
 }
 
-.carousel-background {
-  position: absolute;
-  /* max-height: 50%;  */
-  width: 85%;
-  top: 400px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  padding: 8%;
-  background-color:#f4a353;
-  border: 1px solid;
-}
-
-#carouselExampleCaptions {
-  position: relative;
-  /* border: 1px solid; */
- }
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-
+/*svg {
+  fill: white;
+}*/
