@@ -37,6 +37,52 @@ html {
     border-radius: 30px;
 }
 
+.intersection-top {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:flex-end;
+  height: 150px;
+  /* top: 80px; */
+  /* background-color: aqua; */
+  
+}
+
+.h2-background {
+  position: relative;
+  display: table; 
+  /* flex-grow: 1; */
+  /* top: 80px; */
+  bottom: 6px;
+  height: 3em;
+  width: 160px;
+  /* margin: auto; */
+  background-color: #898989;
+  text-align: center;
+}
+
+h2 {
+  /* Aligne le texte verticalement au milieu */
+  display: table-cell;
+  vertical-align:middle;
+  font-size: 1.5rem;
+}
+
+.separateur1 {
+  height: 50px;
+  width: 20%;
+  /* flex-grow: 2; */
+  /* background-color: aqua; */
+}
+
+.separateur2 {
+  height: 50px;
+  width: 20%;
+  /* flex-grow: 2; */
+  /* background-color: beige; */
+}
+
 .carousel-background {
   /* position: relative; */
   /* max-height: 50%;  */
@@ -47,12 +93,19 @@ html {
   /* margin: auto; */
   padding: 5%;
   /* background-color:#f4a353; */
+  border: 1px solid;
 }
 
 #carouselExampleCaptions {
   /* position: relative; */
   border: 1px solid;
  }
+
+ .intersection-bottom {
+  height: 250px;
+  /* background-color: aqua; */
+  
+}
 
 footer {
   /* position: absolute; */
